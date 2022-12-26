@@ -149,7 +149,7 @@ function Resume() {
       },
     },
     {
-      company: 'Alnoor International school',
+      company: 'Airbnb',
       title: 'Student ',
       logo: logoAirbnb,
       start: '2008',
@@ -164,7 +164,7 @@ function Resume() {
     },
     {
       company: 'Starbucks',
-      title: 'Shift Supervisor',
+      title: 'junior cloud engineer',
       logo: logoStarbucks,
       start: '2008',
       end: '2011',
