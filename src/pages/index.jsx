@@ -141,7 +141,6 @@ function Resume() {
     {
       company: 'NVTC',
       title: 'Student',
-      
       start: '2021',
       end: {
         label: 'Present',
@@ -151,21 +150,18 @@ function Resume() {
     {
       company: 'Alnoor International School',
       title: 'Student ',
-      logo: logoAirbnb,
       start: '2008',
       end: '2020',
     },
     {
       company: 'Airbnb',
       title: 'Cloud Engineer',
-      logo: logoFacebook,
       start: '2011',
       end: '2014',
     },
     {
       company: 'Jajez',
       title: 'junior cloud engineer',
-      logo: logoStarbucks,
       start: '2008',
       end: '2011',
     },
@@ -180,9 +176,6 @@ function Resume() {
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-
-            </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Company</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
