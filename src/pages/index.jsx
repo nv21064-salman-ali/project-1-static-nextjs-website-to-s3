@@ -115,7 +115,7 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+        <span className="ml-3">Stay up to date with Salman Abdulrazaq Ali</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
         Get notified when I publish something new, and unsubscribe at any time.
@@ -140,24 +140,24 @@ function Resume() {
   let resume = [
     {
       company: 'NVTC',
-      title: 'CEO',
+      title: 'Student',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Alnoor International school',
+      title: 'Student ',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '2008',
+      end: '2020',
     },
     {
       company: 'Facebook',
-      title: 'iOS Software Engineer',
+      title: 'Cloud Engineer',
       logo: logoFacebook,
       start: '2011',
       end: '2014',
@@ -212,7 +212,7 @@ function Resume() {
         ))}
       </ol>
       <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+        Download Salman Abdulrazaq Ali CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
@@ -251,7 +251,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          Salman Abdulrazaq Ali - Cloud Engineer.
         </title>
         <meta
           name="description"
@@ -261,12 +261,12 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Cloud Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
+            I’m Salman Abdulrazaq Ali, a Cloud Engineer and entrepreneur based in Bahrain
+            . We develop Cloud technologies
+            that empower regular people to explore space on their
             own terms.
           </p>
           <div className="mt-6 flex gap-6">
