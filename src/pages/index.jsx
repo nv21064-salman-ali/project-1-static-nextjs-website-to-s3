@@ -160,7 +160,7 @@ function Resume() {
       end: '2014',
     },
     {
-      company: 'Jajez',
+      company: 'Jahez',
       title: 'junior cloud engineer',
       start: '2008',
       end: '2011',
